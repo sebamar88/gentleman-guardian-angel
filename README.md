@@ -1008,7 +1008,7 @@ lefthook install
 
 ### 🖥️ VS Code / Antigravity Integration
 
-GGA works seamlessly with VS Code and [Antigravity](https://antigravity.google) (Google's VS Code-based IDE). Since GGA installs as a standard git hook, it runs automatically when you commit from the Source Control panel or the integrated terminal.
+GGA works seamlessly with VS Code and [Antigravity](https://antigravity.google) (Google's AI-first IDE). Since GGA installs as a standard git hook, it runs automatically when you commit — regardless of which IDE or terminal you use.
 
 **Setup:**
 
@@ -1029,7 +1029,7 @@ That's it. When you commit via the Source Control panel (`Cmd+Enter` / `Ctrl+Ent
 
 - **Output visibility**: Hook output appears in the "Git" output channel. Open it via View → Output → select "Git" from the dropdown
 - **Bypass when needed**: Use `--no-verify` from the terminal: `git commit --no-verify -m "wip"`
-- **Antigravity users**: Antigravity includes Gemini built-in. Set `PROVIDER="gemini"` in your `.gga` config and ensure the `gemini` CLI is in your PATH
+- **Antigravity users**: Antigravity includes Gemini built-in. Set `PROVIDER="gemini"` in your `.gga` config and ensure the `gemini` CLI is in your PATH. GGA works through git hooks — no IDE-specific configuration needed.
 
 ### CI/CD Integration
 
